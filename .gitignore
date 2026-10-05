@@ -1,0 +1,25 @@
+# Credentials / local config
+dl.cfg
+.env
+*.pem
+
+# Spark output from local runs
+output/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

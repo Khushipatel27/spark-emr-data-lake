@@ -1,0 +1,5 @@
+# Only needed when running locally against S3 (s3a://). Not needed on EMR (uses the cluster IAM role).
+# Copy to dl.cfg - never commit dl.cfg.
+[AWS]
+AWS_ACCESS_KEY_ID=your-access-key-id
+AWS_SECRET_ACCESS_KEY=your-secret-access-key
